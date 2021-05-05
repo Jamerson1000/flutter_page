@@ -1,4 +1,4 @@
-library flutter_page;
+library flutter_page_template;
 
 /// A Calculator.
 class Calculator {

@@ -1,4 +1,4 @@
-# flutter_page
+# flutter_page_template
 
 A new Flutter package project.
 
