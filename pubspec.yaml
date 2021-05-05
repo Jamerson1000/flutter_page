@@ -1,0 +1,23 @@
+name: flutter_page
+description: A template for create pages in your flutter app.
+version: 0.0.1
+author: Jamerson santos da paixão
+homepage: https//jamesoft.site
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_mobx:
+  mobx:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mobx_codegen:
+  build_runner:
+
+flutter:
