@@ -1,6 +1,6 @@
 class TemplateType {
-  static int customPage = 0;
-  static int loginPage = 1;
-  static int homePage = 2;
-  static int listPage = 3;
+  static final int customPage = 0;
+  static final int loginPage = 1;
+  static final int homePage = 2;
+  static final int listPage = 3;
 }
