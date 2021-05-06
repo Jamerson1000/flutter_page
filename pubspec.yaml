@@ -1,7 +1,7 @@
 name: flutter_page_template
 description: A template for create pages in your flutter app.
 version: 0.0.1
-homepage: https://jamesoft.site
+homepage: https://github.com/Jamerson1000/flutter_page_template
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
