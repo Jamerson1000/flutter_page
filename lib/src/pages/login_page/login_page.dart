@@ -11,6 +11,7 @@ class LoginPage extends StatefulWidget {
       forgetPassword,
       dontHaveAccount,
       loginButton;
+  final initState, dispose;
 
   const LoginPage(
       {Key key,
@@ -20,7 +21,9 @@ class LoginPage extends StatefulWidget {
       this.passwordField,
       this.forgetPassword,
       this.dontHaveAccount,
-      this.loginButton})
+      this.loginButton,
+      this.initState,
+      this.dispose})
       : super(key: key);
   @override
   _LoginPageState createState() => _LoginPageState();

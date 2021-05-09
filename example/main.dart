@@ -7,15 +7,16 @@ class FlutterPageExample extends StatefulWidget {
 }
 
 class _FlutterPageExampleState extends State<FlutterPageExample> {
+  FlutterPage page = FlutterPage(); //Template object
+
   @override
   Widget build(BuildContext context) {
-    return FlutterPage(
-      templateType: TemplateType.customPage,
+    return page.customPage(
+      initState: () {}, // Init state method
+      dispose: () {}, // Dispose method
       child: Scaffold(
-        body: Column(
-          children: [
-            Container(),
-          ],
+        appBar: AppBar(
+          title: Text('Flutter custom page template'),
         ),
       ),
     );
