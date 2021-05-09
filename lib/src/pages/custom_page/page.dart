@@ -12,8 +12,6 @@ class CustomPage extends StatefulWidget {
 }
 
 class _CustomPageState extends State<CustomPage> {
-  var a;
-
   @override
   void initState() {
     super.initState();
