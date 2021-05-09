@@ -5,6 +5,7 @@ import 'package:flutter_page_template/src/pages/custom_page/page.dart';
 import 'package:flutter_page_template/src/utils/template_type.dart';
 
 export 'src/utils/template_type.dart';
+export 'src/pages/login_page/login_page_all.dart';
 
 class FlutterPage extends StatefulWidget {
   final int templateType;

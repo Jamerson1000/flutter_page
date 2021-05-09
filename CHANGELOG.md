@@ -4,4 +4,8 @@
 
 ## [0.0.2] - 06/05/2021.
 
-* Custom page addeds.
+* Custom page added.
+
+## [0.0.3] - 09/05/2021.
+
+* Login page added.
