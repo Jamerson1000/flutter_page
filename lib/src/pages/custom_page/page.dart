@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 class CustomPage extends StatefulWidget {
-  final Widget child;
-  final Function initState, dispose;
+  final Widget? child;
+  final Function? initState, dispose;
 
-  const CustomPage({Key key, this.child, this.initState, this.dispose})
+  const CustomPage({Key? key, this.child, this.initState, this.dispose})
       : super(key: key);
 
   @override
@@ -16,18 +16,18 @@ class _CustomPageState extends State<CustomPage> {
   void initState() {
     super.initState();
 
-    widget.initState();
+    widget.initState!();
   }
 
   @override
   void dispose() {
     super.dispose();
 
-    widget.dispose();
+    widget.dispose!();
   }
 
   @override
   Widget build(BuildContext context) {
-    return widget.child;
+    return widget.child!;
   }
 }

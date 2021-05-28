@@ -4,7 +4,7 @@ class SplashPage extends StatefulWidget {
   final backgroundColor, logo, backgroundImage, initState;
 
   const SplashPage(
-      {Key key,
+      {Key? key,
       this.backgroundColor,
       this.logo,
       this.backgroundImage,

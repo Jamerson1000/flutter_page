@@ -4,7 +4,7 @@ import 'core/core.store.dart';
 import 'components/components.dart';
 
 class LoginPage extends StatefulWidget {
-  final Widget appBar,
+  final Widget? appBar,
       logo,
       emailField,
       passwordField,
@@ -14,7 +14,7 @@ class LoginPage extends StatefulWidget {
   final initState, dispose;
 
   const LoginPage(
-      {Key key,
+      {Key? key,
       this.logo,
       this.appBar,
       this.emailField,
