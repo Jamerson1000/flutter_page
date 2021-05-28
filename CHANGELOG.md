@@ -1,6 +1,10 @@
+## [0.0.5] - 09/05/2021.
+
+* Splash page added.
+
 ## [0.0.4] - 09/05/2021.
 
-* Package base as bject.
+* Package base as object.
 
 ## [0.0.3] - 09/05/2021.
 

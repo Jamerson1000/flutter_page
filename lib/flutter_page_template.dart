@@ -2,6 +2,7 @@ library flutter_page_template;
 
 import 'package:flutter_page_template/src/pages/custom_page/page.dart';
 import 'package:flutter_page_template/src/pages/login_page/login_page.dart';
+import 'package:flutter_page_template/src/pages/splash_page/splash_page.dart';
 
 export 'src/pages/login_page/login_page_all.dart';
 
@@ -37,5 +38,14 @@ class FlutterPage {
         loginButton: loginButton,
         initState: initState,
         dispose: dispose);
+  }
+
+  splashPage({logo, initState, bacgroundColor, bacgroundImage}) {
+    return SplashPage(
+      backgroundColor: bacgroundColor,
+      backgroundImage: bacgroundImage,
+      logo: logo,
+      initState: initState,
+    );
   }
 }
